@@ -15,7 +15,7 @@ function ContactForm() {
     e.preventDefault();
     notificationCtx.showNotification({
       title: "Sending Message",
-      message: "sending",
+      message: "Sending",
       status: "pending",
     });
     const email = emailInputRef.current.value;
